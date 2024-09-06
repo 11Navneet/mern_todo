@@ -86,9 +86,6 @@ const Login = () => {
             </div>
             <div className="form-group">
               <p>
-                <NavLink to="/forgotpassword">Forgot Password </NavLink>
-              </p>
-              <p>
                 Don't have an account ? <NavLink to="/signup">signup</NavLink>
               </p>
             </div>
