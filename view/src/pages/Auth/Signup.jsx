@@ -28,7 +28,7 @@ const Signup = () => {
     console.log("form data", user);
     try {
       const userData = await axios.post(
-        `https://mern-todo-6wvz.onrender.com/signup`,
+        `https://notes-app-0wxo.onrender.com/signup`,
         user
       );
 

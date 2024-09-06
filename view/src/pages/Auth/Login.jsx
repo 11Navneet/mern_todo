@@ -27,7 +27,7 @@ const Login = () => {
 
     try {
       const loginData = await axios.post(
-        `https://mern-todo-6wvz.onrender.com/login`,
+        `https://notes-app-0wxo.onrender.com/login`,
         loginCredentials
       );
 
