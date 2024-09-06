@@ -35,7 +35,7 @@ const UpdateCard = () => {
 
     try {
       let savedNoteData = await axios.put(
-        `https://notes-app-0wxo.onrender.com/task/${_id}`,
+        `https://mern-todo-6wvz.onrender.com/task/${_id}`,
         updatedNote,
         {
           headers: {

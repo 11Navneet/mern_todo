@@ -16,7 +16,7 @@ const Card = ({ note }) => {
 
   let tokenData = localStorage.getItem("token");
 
-  useFetch(`https://notes-app-0wxo.onrender.com/task`, tokenData, confirmDelete);
+  useFetch(`https://mern-todo-6wvz.onrender.com/task`, tokenData, confirmDelete);
 
   const handleEditNote = () => {
     setUpdatingNote({
@@ -37,7 +37,7 @@ const Card = ({ note }) => {
     }
 
     await axios
-      .delete(`https://notes-app-0wxo.onrender.com/task/${_id}`, {
+      .delete(`https://mern-todo-6wvz.onrender.com/task/${_id}`, {
         headers: {
           Authorization: tokenData,
         },

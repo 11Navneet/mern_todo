@@ -15,7 +15,7 @@ const AddCard = () => {
     payload = JSON.parse(atob(tokenData.split(".")[1]));
   }
 
-  useFetch(`https://notes-app-0wxo.onrender.com/task`, tokenData);
+  useFetch(`https://mern-todo-6wvz.onrender.com/task`, tokenData);
 
   const [note, setNote] = useState({
     uid: "",
@@ -39,7 +39,7 @@ const AddCard = () => {
 
     try {
       let savedNoteData = await axios.post(
-        `https://notes-app-0wxo.onrender.com/task`,
+        `https://mern-todo-6wvz.onrender.com/task`,
         note,
         {
           headers: {
